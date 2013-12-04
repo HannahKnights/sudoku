@@ -7,11 +7,15 @@ def filled_out?
 end
 
 def possible_values (neighbours)
-  full_range = Array (1..9)
-  full_range - neighbours
+  (1..9).to_a - neighbours
+end
+
+def solve (neighbours)
+  value = possible_values(neighbours)
+  if value.length == 1
+    self.value = (value[0])
   end
-
-
+end
 
     
 end
