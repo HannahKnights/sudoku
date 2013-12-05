@@ -17,5 +17,4 @@ def solve (neighbours)
   end
 end
 
-    
 end
