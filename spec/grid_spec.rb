@@ -38,8 +38,28 @@ describe Grid do
   context "knowing your neighbours" do
 
     it "should have 9 rows" do
+      expect(grid.puzzle.count).to eq(9)
+    end
+
+    it "should have 9 rows of 9 cells" do
+      expect(grid.puzzle[0].count).to eq(9)
+    end
+
+    it "should have 9 columns" do
+      expect(grid.puzzle_column.count).to eq(9)
+    end
+
+    it "should have 9 columns of 9 cells" do
+      expect(grid.puzzle_column[0].count).to eq(9)
+    end
+
+    it "a cell should know the values in it's neighbouring row and column" do
+      expect(grid.neighbours(grid.cell_at(0,0))).to match_array [0, 1, 5, 3, 2, 4, 9, 8]
     end
 
   end
     
 end
+
+
+
