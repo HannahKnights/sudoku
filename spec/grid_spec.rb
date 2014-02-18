@@ -20,7 +20,7 @@ describe Grid do
 
     it "should be able to return values of many indexes" do
       index = [2,5]
-      expect(grid.cell_values(indexs)).to eq([5,3])
+      expect(grid.cell_values(index)).to eq([5,3])
     end
 
   end
