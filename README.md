@@ -5,7 +5,7 @@ Sudoku
 
 Developing a puzzle solver for Sudoku using Ruby. 
 
-This was one of my first introductions to more involved Object Orientated Programming through Test Driven Development. The exercise was to model the components required to create a progam to solve sudoku puzzels.
+This was my first introduction to more involved Object Orientated Programming through Test Driven Development. The exercise was to model the components required to create a progam to solve sudoku puzzels.
 
 Although the task is not complete, the learning exercise was important.
 
