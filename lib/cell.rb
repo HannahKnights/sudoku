@@ -17,4 +17,4 @@ def solve (neighbours)
   end
 end
 
-end
+end#end of file - to be removed 
