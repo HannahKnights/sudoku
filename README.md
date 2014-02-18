@@ -15,4 +15,4 @@ Run RSpec to see my thought process in action:
 $ rspec
 ~~~
 
-Created while studying at [Makers Academy](http://www.makersacademy.com) 
+Created while studying at [Makers Academy](http://www.makersacademy.com)  
