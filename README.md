@@ -17,3 +17,4 @@ $ rspec
 
 Created while studying at [Makers Academy](http://www.makersacademy.com)  
 ---- editing ---- 
+=== to be removed ===
