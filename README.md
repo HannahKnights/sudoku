@@ -5,11 +5,11 @@ Sudoku
 
 Developing a puzzle solver for Sudoku using Ruby. 
 
-This was one of my first introductions to more involved Object Orientated Programming through Test Driven Development. The exercise was to model the components required to create a progam to solve sudoku puzzels; there is a Grid class and a Cell class. 
+This was one of my first introductions to more involved Object Orientated Programming through Test Driven Development. The exercise was to model the components required to create a progam to solve sudoku puzzels.
 
 Although the task is not complete, the learning exercise was important.
 
-Run RSpec to see my thought process in action- note the failing test for 
+Run RSpec to see my thought process in action:
 
 ~~~
 $ rspec
